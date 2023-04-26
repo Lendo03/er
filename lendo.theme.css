@@ -51,7 +51,7 @@
   --background-invert: 0%; /* app background invert (0 - 100%)  [default: 0%] */
   --background-grayscale: 0%; /* app background grayscale ( 0 - 100%) [default: 0%] */
   --background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
-  --background-blur: 1px; /* app background blur [default: 0px] */
+  --background-blur: 2px; /* app background blur [default: 0px] */
 
   /* HOME BUTTON ICON */
   --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
@@ -80,7 +80,7 @@
   --backdrop-blur: var(--background-blur); /* modal backdrop blur [default: var(--background-blur)] */
 
   /* USER POPOUT BACKGROUND */
-  --user-popout-image: var(https://t10pgalleryv2.azureedge.net/galleryv2images/696b48d3-2750-4c07-9484-f70e8945370a/3b895cc5-6194-450b-becd-25ccd198ecf9/4); /* app background image (link must be HTTPS) [default: var(--background-image)] */
+  --user-popout-image: var(https://cdn.wallpapersafari.com/5/36/1qukLJ.jpg); /* app background image (link must be HTTPS) [default: var(--background-image)] */
   --user-popout-position: var(--background-position); /* user popout background position [default: var(--background-position)] */
   --user-popout-size: var(--background-size); /* user popout background size [default: var(--background-size)] */
   --user-popout-repeat: var(--background-repeat); /* user popout background repeat [default: var(--background-repeat)] */
