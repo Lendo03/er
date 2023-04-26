@@ -66,11 +66,11 @@
 
   /* MODAL BACKDROP */
   --backdrop-overlay: rgba(0, 0, 0, 0.8); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
-  --backdrop-image: var(--background-image); /* modal backdrop image (link must be HTTPS) [default: var(--background-image)] */
-  --backdrop-position: var(--background-position); /* modal backdrop position [default: var(--background-position)] */
-  --backdrop-size: var(--background-size); /* modal backdrop size [default: var(--background-size)] */
-  --backdrop-repeat: var(--background-repeat); /* modal backdrop repeat [default: var(--background-repeat)] */
-  --backdrop-attachment: var(--background-attachment); /* modal backdrop attachment [default: var(--background-attachment)] */
+  --backdrop-image: url (https://wallpapercrafter.com/desktop/105125-Illuminati-simple-drawing-Life-is-Strange-Before-the-Storm-Loading-screen.png); /* modal backdrop image (link must be HTTPS) [default: var(--background-image)] */
+  --backdrop-position: center; /* modal backdrop position [default: var(--background-position)] */
+  --backdrop-size: cover; /* modal backdrop size [default: var(--background-size)] */
+  --backdrop-repeat: no-repeat; /* modal backdrop repeat [default: var(--background-repeat)] */
+  --backdrop-attachment: fixed; /* modal backdrop attachment [default: var(--background-attachment)] */
   --backdrop-brightness: var(--background-brightness); /* modal backdrop brightness (< 100% for darken, > 100% for lighten) [default: var(--background-brightness)] */
   --backdrop-contrast: var(--background-contrast); /* modal backdrop contrast [default: var(--background-contrast)] */
   --backdrop-saturation: var(--background-saturation); /* modal backdrop saturation [default: var(--background-saturation)] */
